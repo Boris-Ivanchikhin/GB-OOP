@@ -5,17 +5,16 @@
 
 1. Создать класс Person (человек) с полями: имя, возраст, пол и вес. Определить методы переназначения имени, изменения возраста и веса. Создать производный класс Student (студент), имеющий поле года обучения. Определить методы переназначения и увеличения этого значения. Создать счетчик количества созданных студентов. В функции main() создать несколько (не больше трёх) студентов. Вывести информацию о них.
 2. Создать классы Apple (яблоко) и Banana (банан), которые наследуют класс Fruit (фрукт). У Fruit есть две переменные-члена: name (имя) и color (цвет). Добавить новый класс GrannySmith, который наследует класс Apple.
-
-int main()
-{
- Apple a("red");
- Banana b;
- GrannySmith c;
- std::cout << "My " << a.getName() << " is " << a.getColor() << ".\n";
- std::cout << "My " << b.getName() << " is " << b.getColor() << ".\n";
- std::cout << "My " << c.getName() << " is " << c.getColor() << ".\n";
- return 0;
-}
+	int main()
+	{
+	 Apple a("red");
+	 Banana b;
+	 GrannySmith c;
+	 std::cout << "My " << a.getName() << " is " << a.getColor() << ".\n";
+	 std::cout << "My " << b.getName() << " is " << b.getColor() << ".\n";
+	 std::cout << "My " << c.getName() << " is " << c.getColor() << ".\n";
+	 return 0;
+	}
 Код, приведенный выше, должен давать следующий результат:
  My apple is red.
  My banana is yellow.
